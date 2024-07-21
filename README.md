@@ -50,39 +50,6 @@ Follow these steps to set up the project locally:
 3. Click on the "Submit" button to get the predicted disease.
 4. View the detailed information about the predicted disease.
 
-## Project Structure
-symptom-diagnosis-app/
-│
-├── app/
-│ ├── static/
-│ │ ├── css/
-│ │ └── js/
-│ ├── templates/
-│ │ ├── about.html
-│ │ ├── contact.html
-│ │ ├── index.html
-│ │ └── blog.html
-│ ├── init.py
-│ ├── models.py
-│ └── routes.py
-│
-├── data/
-│ └── symptoms_diseases.csv
-│
-├── model/
-│ ├── decision_tree_model.pkl
-│ └── train_model.py
-│
-├── tests/
-│ ├── test_model.py
-│ └── test_routes.py
-│
-├── .gitignore
-├── README.md
-├── requirements.txt
-└── run.py
-
-
 ## Model Training
 The machine learning model used in this project is a Decision Tree Classifier. To train the model:
 
@@ -105,3 +72,6 @@ We welcome contributions to improve this project. To contribute:
 
 ## License
 This project is licensed under the Python License. See the LICENSE file for details.
+
+![Screenshot 2024-07-21 132258](https://github.com/user-attachments/assets/958f60b3-cbf5-40fa-83ce-a6dcb889f132)
+
